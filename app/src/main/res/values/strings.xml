@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Quiz Time!</string>
+    <string name="mainTitle">Scintillating Science Quiz</string>
+    <string name="welcome">Welcome to the Scintillating Science Quiz!!! A few rules before we begin: </string>
+    <string name="rule1">Rule 1. The Questions in this quiz are of three main types:  free text response questions, checkbox questions(with one or more correct responses), and radio buttons(with only one correct response).</string>
+    <string name="rule2">Rule 2. Every correct response is awarded four points, and a wrong response results in the reduction of one mark, thus a maximum of 40 points can be scored on this quiz... Please note that blank responses are not penalized.</string>
+    <string name="start">Okay! Now let\'s get started!!!</string>
+
+    -----------------------------------
+    <string name="q1">Q1. Quartz clocks contain quartz crystals, which are known in the world of chemistry as___________</string>
+    <string name="q1a1">Silicon dioxide</string>
+    <string name="q1a2">Carbon dioxide</string>
+    <string name="q1a3">Silica</string>
+    <string name="q1a4">Silicon monoxide</string>
+
+    ------------------------------------
+    <string name="q2">Q2. Name the only metal that exists as a liquid at normal room temperature.</string>
+    <string name="q2a1">Enter your answer here...</string>
+    -----------------------------------------
+    <string name="q3">Q3. Bronze is an alloy containing which of the following chemical elements?</string>
+    <string name="q3a1">Tin</string>
+    <string name="q3a2">Lead</string>
+    <string name="q3a3">Copper</string>
+    <string name="q3a4">Silver</string>
+    ----------------------------------------
+    <string name="q4">Q4. Name the unit of measurement used for nuclear sizes.</string>
+    <string name="q4a1">Fermi</string>
+    <string name="q4a2">Angstrom</string>
+    <string name="q4a3">Metres</string>
+    <string name="q4a4">Centimeter</string>
+    ----------------------------------------
+    <string name="q5">Q5. Name the scientist whose discovery is widely used to detect fractures and cracks in bones.</string>
+    <string name="q5a1">(The scientist\'s surname is enough...)</string>
+    ----------------------------------------
+    <string name="q6">Q6. Find the scalar quantities from the given options.</string>
+    <string name="q6a1">Force</string>
+    <string name="q6a2">Speed</string>
+    <string name="q6a3">Velocity</string>
+    <string name="q6a4">Pressure</string>
+    ---------------------------------------
+    <string name="q7">Q7. Pick the option that contains the number of chromosomes found in the nucleus of a normal human cell.</string>
+    <string name="q7a1">50</string>
+    <string name="q7a2">43</string>
+    <string name="q7a3">46</string>
+    <string name="q7a4">48</string>
+    ----------------------------------------
+    <string name="q8">Q8. The enzyme ptyalin is secreted in humans by this gland...</string>
+    <string name="q8a1">Enter your answer here...</string>
+    ----------------------------------------
+    <string name="q9">Q9. Presence of these in fish, prevent them from sinking (select all applicable options).</string>
+    <string name="q9a1">A swim bladder</string>
+    <string name="q9a2">Air filled lungs</string>
+    <string name="q9a3">An air bladder</string>
+    <string name="q9a4">Swimming floats</string>
+    ---------------------------------------
+    <string name="q10">Q10. The father of genetics, Gregor Mendel, performed his famous experiment on this plant...</string>
+    <string name="q10a1">Enter your answer here...</string>
+    ----------------------------------------
+    <string name="reset">Reset</string>
+
+    ----------------------------------------
+    <string name="submit">submit</string>
+    <string name="eval">evaluate</string>
+
+    ----------------------------------------
+    <string name="score">Your score is   </string>
+    <string name="congo"> .. Congratulations!!!!</string>
+    <string name="amaze"> .. That\'s an amazing score!</string>
+    <string name="well"> .. Well done!</string>
+    <string name="hey"> .. That\'s okay! Better luck next time</string>
+
+</resources>

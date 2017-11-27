@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.umasubbiah.quiztime.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A7FFEB"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:contentDescription="@null"
+                android:id="@+id/atom"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/atom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="26dp"
+                android:text="@string/mainTitle"
+                android:textColor="@color/Blue"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+
+        <View style="@style/line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/welcome"
+            android:textColor="@color/Blue"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/rule1"
+            android:textColor="@color/Blue" />
+
+        <TextView
+            android:paddingStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="@string/rule2"
+            android:textColor="@color/Blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/start"
+            android:textColor="@color/Blue"
+            android:textSize="16sp" />
+
+        <View style="@style/line" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/questions"
+            android:text="@string/q1"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/q1a1"
+                style="@style/ans"
+                android:text="@string/q1a1" />
+
+            <RadioButton
+                android:id="@+id/q1a2"
+                style="@style/ans"
+                android:text="@string/q1a2" />
+
+            <RadioButton
+                android:id="@+id/q1a3"
+                style="@style/ans"
+                android:text="@string/q1a3" />
+
+            <RadioButton
+                android:id="@+id/q1a4"
+                style="@style/ans"
+                android:text="@string/q1a4" />
+
+        </RadioGroup>
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/q2"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/q2a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/q2a1"
+            android:inputType="textCapSentences"
+            android:padding="16dp"
+            android:textSize="16sp" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/q3"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/q3a1"
+            style="@style/ans"
+            android:text="@string/q3a1" />
+
+        <CheckBox
+            android:id="@+id/q3a2"
+            style="@style/ans"
+            android:text="@string/q3a2" />
+
+        <CheckBox
+            android:id="@+id/q3a3"
+            style="@style/ans"
+            android:text="@string/q3a3" />
+
+        <CheckBox
+            android:id="@+id/q3a4"
+            style="@style/ans"
+            android:text="@string/q3a4" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/q4"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/q4a1"
+                style="@style/ans"
+                android:text="@string/q4a1" />
+
+            <RadioButton
+                android:id="@+id/q4a2"
+                style="@style/ans"
+                android:text="@string/q4a2" />
+
+            <RadioButton
+                android:id="@+id/q4a3"
+                style="@style/ans"
+                android:text="@string/q4a3" />
+
+            <RadioButton
+                android:id="@+id/q4a4"
+                style="@style/ans"
+                android:text="@string/q4a4" />
+        </RadioGroup>
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/q5"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/q5a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/q5a1"
+            android:inputType="textCapSentences"
+            android:padding="16dp"
+            android:textSize="@dimen/text16" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/q6"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/q6a1"
+            style="@style/ans"
+            android:text="@string/q6a1" />
+
+        <CheckBox
+            android:id="@+id/q6a2"
+            style="@style/ans"
+            android:text="@string/q6a2" />
+
+        <CheckBox
+            android:id="@+id/q6a3"
+            style="@style/ans"
+            android:text="@string/q6a3" />
+
+        <CheckBox
+            android:id="@+id/q6a4"
+            style="@style/ans"
+            android:text="@string/q6a4" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/q7"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/q7a1"
+                style="@style/ans"
+                android:text="@string/q7a1" />
+
+            <RadioButton
+                android:id="@+id/q7a2"
+                style="@style/ans"
+                android:text="@string/q7a2" />
+
+            <RadioButton
+                android:id="@+id/q7a3"
+                style="@style/ans"
+                android:text="@string/q7a3" />
+
+            <RadioButton
+                android:id="@+id/q7a4"
+                style="@style/ans"
+                android:text="@string/q7a4" />
+        </RadioGroup>
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/q8"
+            android:textColor="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/q8a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/q8a1"
+            android:inputType="textCapSentences"
+            android:padding="16dp"
+            android:textSize="16sp" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/q9"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/q9a1"
+            style="@style/ans"
+            android:text="@string/q9a1" />
+
+        <CheckBox
+            android:id="@+id/q9a2"
+            style="@style/ans"
+            android:text="@string/q9a2" />
+
+        <CheckBox
+            android:id="@+id/q9a3"
+            style="@style/ans"
+            android:text="@string/q9a3" />
+
+        <CheckBox
+            android:id="@+id/q9a4"
+            style="@style/ans"
+            android:text="@string/q9a4" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/q10"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/q10a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/q10a1"
+            android:inputType="textCapSentences"
+            android:padding="16dp" />
+
+        <View style="@style/line" />
+
+        <Button
+            android:id="@+id/eval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:background="#3F51B5"
+            android:onClick="evaluate"
+            android:text="@string/eval" />
+
+        <ImageView
+            android:contentDescription="@null"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+            android:src="@drawable/dna" />
+
+    </LinearLayout>
+</ScrollView>
